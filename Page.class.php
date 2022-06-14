@@ -1,7 +1,7 @@
 <?php
 class Page extends Entity
 {
-	public static $table = "sr_pages_WWWWW";
+	public static $table = "sr_pages_UUUUIII";
 	public static $columns = array("name","modules","template","menu","footer");
 	public static $id_column = "id";
 	public $id,$name,$modules,$template;
