@@ -41,4 +41,9 @@ class Page extends Entity
 	public function Render(){
 		include APP_DIR."/templates/".$this->template."/index.php";
 	}
+	
+	public function go()
+	{
+		echo 'GOOOO';
+	}
 }
